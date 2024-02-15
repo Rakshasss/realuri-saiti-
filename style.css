@@ -85,3 +85,46 @@ header {
     font-size: 22px;
     opacity: 0.8;
 }
+
+.foot {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.trns {
+    opacity: 0.6;
+}
+
+.bold {
+    font-size: 20px;
+}
+
+.logo {
+    margin-right: 50px;
+}
+
+/* hr {
+    text-align: right;
+    border: 1px solid red;
+    width: 500px;
+    height: 10px;
+} */
