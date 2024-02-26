@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    list-style: none;
+    all: unset;
+    cursor: pointer;
+}
+
+header {
+    background-image: url('./fotebi/Group\ 26.png');
+    height: 450px;
+}
+
+.chamonatvali {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 150px;
+    align-items: flex-start;
+    color: white;
+    padding-top: 24px;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.sax-product {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+}
+
+#sat {
+    font-style: italic;
+    font-size: 44px;
+}
+
+
+#prod {
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 15px 55px;
+    margin-top: 40px;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+
+#WAW {
+    font-size: 44px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+#pir-text {
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+}
+
+#meore-text {
+    text-align: left;
+    font-style: italic;
+    font-size: 22px;
+    opacity: 0.8;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.info {
+    display: flex;
+    gap: 125px;
+    border-bottom: 1px solid;
+}
+
+.trns {
+    opacity: 0.6;
+}
+
+.bold {
+    font-size: 20px;
+}
+
+.logo {
+    margin-right: 50px;
+}
+
+.soc {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 7px;
+    margin-right: 290px;
+}
+
+.policy {
+    display: flex;
+    gap: 20px;
+}
+
+.credit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 5px;
+}
