@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./fotebi/bckground-pg-3.png);
+    background-repeat: no-repeat;
+}
+
+a {
+    list-style: none;
+    all: unset;
+    cursor: pointer;
+}
+
+.chamonatvali {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 150px;
+    color: white;
+    padding-top: 24px;
+    font-size: 17px;
+    font-style: italic;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    margin-top: 110px;
+    opacity: 0.9;
+}
+
+.txt-info {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    opacity: 0.6;
+    margin-top: 100px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    margin-top: 350px;
+    border: 1px solid red;
+    width: 1280px;
+    height: 500px;
+}
+
+p {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    color: white;
+    margin-top: 150px;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.info {
+    display: flex;
+    gap: 125px;
+    border-bottom: 1px solid;
+}
+
+.trns {
+    opacity: 0.6;
+}
+
+.bold {
+    font-size: 20px;
+}
+
+.logo {
+    margin-right: 50px;
+}
+
+.soc {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 7px;
+    margin-right: 290px;
+}
+
+.policy {
+    display: flex;
+    gap: 20px;
+}
+
+.credit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 5px;
+}
