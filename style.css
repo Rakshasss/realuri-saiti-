@@ -21,7 +21,6 @@ header {
     flex-direction: row;
     list-style: none;
     gap: 150px;
-    align-items: flex-start;
     color: white;
     padding-top: 24px;
     font-size: 17px;
@@ -82,7 +81,7 @@ header {
 #meore-text {
     text-align: left;
     font-style: italic;
-    font-size: 22px;
+    font-size: 20px;
     opacity: 0.8;
 }
 
@@ -90,6 +89,7 @@ header {
     display: flex;
     justify-content: center;
     gap: 130px;
+    margin-top: 60px;
 }
 
 .number {
